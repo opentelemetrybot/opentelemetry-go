@@ -9,7 +9,8 @@ on:
     types: [opened, synchronize, reopened, labeled, unlabeled]
 
 # Declare default permissions as read only.
-permissions: read-all
+permissions:
+  contents: read
 
 jobs:
   protect-released-changelog:
